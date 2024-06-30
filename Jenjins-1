@@ -17,4 +17,12 @@ stage('Clone sources') {
     stage('Publish build info') {
         server.publishBuildInfo buildInfo
     }
+    stage('Sonar Test'){
+     }
+   Stage('Push to Artifactory'){
+
+     }
+   Stage('Deployment to Dev'){
+
+   }
 }
